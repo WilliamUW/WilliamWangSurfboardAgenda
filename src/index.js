@@ -80,7 +80,7 @@ class App extends React.Component {
         comments: [
           ...this.state.comments,
           {
-            author: "Han Solo",
+            author: "Company Employee",
             avatar: "https://joeschmoe.io/api/v1/random",
             content: <p>{this.state.value}</p>,
             datetime: moment().fromNow()
