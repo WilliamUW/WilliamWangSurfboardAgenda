@@ -1,3 +1,3 @@
 # William Wang
-# Surfboard Agenda
-# Made using React
+## Surfboard Agenda
+## Made using React
