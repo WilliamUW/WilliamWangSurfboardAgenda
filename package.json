@@ -25,7 +25,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "name": "vertical-antd4185-forked",
-  "description": null,
-  "version": "0.0.102"
+  "name": "williamwang-surfboardagenda",
+  "description": "",
+  "version": "0.0.102",
+  "keywords": []
 }
