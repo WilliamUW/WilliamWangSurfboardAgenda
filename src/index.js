@@ -175,7 +175,9 @@ function render() {
         header={
           <>
             <div>
-              <h1>Surfboard Agenda - William Wang</h1>
+              <h1>
+                <center>Surfboard Agenda - William Wang</center>
+              </h1>
               <b>Add Topic</b>
               <br />
               <br />
