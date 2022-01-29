@@ -127,7 +127,7 @@ for (let i = 0; i < 2; i++) {
     title: `Meeting Topic Title ${i}`,
     avatar: "https://joeschmoe.io/api/v1/random",
     description: "Time Estimate: 1pm",
-    content: "Text Description here."
+    content: ""
   });
 }
 
@@ -144,7 +144,7 @@ function addTopic() {
     title: `Meeting Topic Title ${listData.length}`,
     avatar: "https://joeschmoe.io/api/v1/random",
     description: "Time Estimate: 1pm",
-    content: "Text Description here."
+    content: ""
   });
   render();
 }
@@ -245,7 +245,11 @@ function render() {
               }
             />
 
-            <ReactQuill theme="snow" defaultValue={item.content} />
+            <ReactQuill
+              theme="snow"
+              defaultValue={item.content}
+              placeholder="Text Description Here!"
+            />
             <br />
             <Button onClick={() => deleteTopic(index)}>
               Delete This Topic
